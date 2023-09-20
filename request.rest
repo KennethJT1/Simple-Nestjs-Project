@@ -1,0 +1,23 @@
+POST http://localhost:3000 HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sample 1",
+    "description": "Thur, 22 Oct 2015 18:27:50 GMT"
+}
+
+### All user
+GET http://localhost:3000 HTTP/1.1
+content-type: application/json
+
+### update 
+PUT http://localhost:3000/650aeae059275745812f967d HTTP/1.1
+content-type: application/json
+
+{
+    "description": "I love you"
+}
+
+### delete
+DELETE http://localhost:3000/650aeeab3d3bb2d05b0d2df1 HTTP/1.1
+content-type: application/json
